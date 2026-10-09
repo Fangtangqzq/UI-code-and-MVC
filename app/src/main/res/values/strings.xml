@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">唐尚宇2024110531</string>
+
+    <!-- 功能区一：用代码动态生成 TextView -->
+    <string name="area1_title">TextView</string>
+    <string name="area1_add_button">add TextView</string>
+    <string name="area1_item_text">This is a new textView:%1$d </string>
+
+    <!-- 功能区二：MVC 模式实现的交互式 ProgramAdviser -->
+    <string name="area2_title">ProgramAdviser（MVC）</string>
+    <string name="area2_confirm_button">确定</string>
+
+    <!-- 下拉框的四个选项 -->
+    <string-array name="advice_options">
+        <item>快速</item>
+        <item>容易</item>
+        <item>新语言</item>
+        <item>面向对象</item>
+    </string-array>
+
+    <!-- 每个选项对应的语言，顺序与 advice_options 一一对应 -->
+    <string-array name="advice_languages">
+        <item>c</item>
+        <item>python</item>
+        <item>kotlin</item>
+        <item>java</item>
+    </string-array>
+</resources>
